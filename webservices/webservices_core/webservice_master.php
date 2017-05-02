@@ -73,8 +73,8 @@ class webservice_master extends webservices_baseClass{
         /**
          * Si la clase viene derivada de un global_config entonces se válida para setear los parámetros
          */
-        if(method_exists($this->objAdmin->objClass,"setArrParams")){
-            $this->objAdmin->objClass->setArrParams($this->arrParams);
+        if(method_exists($this->objAdmin->objClass,"setArrParam") ){
+            $this->objAdmin->objClass->setArrParam($this->arrParams);
         }
         if($arrReturn["status"] == "fail"){
             $this->appendError($arrReturn["msj"]);
