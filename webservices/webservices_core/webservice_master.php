@@ -11,7 +11,7 @@ class webservice_master extends webservices_baseClass{
 
     private $objAdmin = false;
     function __construct($strCodigoOperacion, $arrInfoOperacion) {
-        parent::__construct($strCodigoOperacion, $arrInfoOperacion);
+        parent::__construct($this,$strCodigoOperacion, $arrInfoOperacion);
         //obtengo formatos permitidos
         $this->objAdmin = new webservices_controller();
         $this->objAdmin->setStrOpCod($strCodigoOperacion);

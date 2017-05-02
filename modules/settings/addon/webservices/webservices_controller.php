@@ -24,7 +24,7 @@ class webservices_controller extends settings_controller implements controller {
     public $objClass = false;
     private $arrInfoClass = array();
 
-    public function __construct($strAction){
+    public function __construct($strAction = ""){
         parent::__construct($strAction);
     }
 
@@ -47,6 +47,7 @@ class webservices_controller extends settings_controller implements controller {
 
     public function setStrOpCod($strOpCod){
         $this->strOpCod = $strOpCod;
+        $this->setClass();
     }
 
     public function getHtml(){
@@ -105,28 +106,28 @@ class webservices_controller extends settings_controller implements controller {
     private function validate_fields_service(){
         $arrError = array();
         if(empty($this->arrParam["module"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "Módulo no puede estar vacío sssss";
         }
         if(empty($this->arrParam["descripcion"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "descripcion no puede estar vacío";
         }
         if(empty($this->arrParam["path_class"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "path_class no puede estar vacío";
         }
         elseif(!file_exists($this->arrParam["path_class"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "path_class no existe";
         }
         if(empty($this->arrParam["name_class"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "name_class no puede estar vacío";
         }
         if(empty($this->arrParam["allowed"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "allowed no puede estar vacío";
         }
         if(empty($this->arrParam["format_response"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "format_response no puede estar vacío";
         }
         if(empty($this->arrParam["method_response"])){
-            $arrError[] = "Módulo no puede estar vacío";
+            $arrError[] = "method_response no puede estar vacío";
         }
         foreach($this->arrParam AS $key => $val){
             $arrKey = explode("_", $key);
@@ -306,16 +307,6 @@ class webservices_controller extends settings_controller implements controller {
                     unset($val);
                 }
             }
-
-
-            $strQuery = "SELECT * FROM wt_webservices_operations_extra_data WHERE op = '{$this->strOpCod}'";
-            $qTMP = db_query($strQuery);
-            if(db_num_rows($qTMP)){
-                while($rTMP = db_fetch_array($qTMP)){
-
-                }
-                db_free_result($qTMP);
-            }
             else{
                 $this->response = response_webservice::response(0,$this->lang["WEBSERVICES_ERROR021"],false,false);
             }
@@ -367,5 +358,11 @@ class webservices_controller extends settings_controller implements controller {
         }
         return $this->get_return();
     }
-
+	private function get_return(){
+		/*
+		if(is_array($this->response))
+			utf8_encode_array($this->response);
+		*/
+		return $this->response;
+	}
 }

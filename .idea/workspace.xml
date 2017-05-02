@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07626caf-86dc-4124-ab24-baad4ca2d1a8" name="Default" comment="" />
+    <list default="true" id="07626caf-86dc-4124-ab24-baad4ca2d1a8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/settings/sql/sql_transport" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/addon/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/addon/routes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/addon/routes/routes_controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/addon/routes/routes_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/addon/routes/routes_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/transport_controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/transport_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/transport/transport_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/settings/addon/webservices/webservices_controller.php" afterPath="$PROJECT_DIR$/modules/settings/addon/webservices/webservices_controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/settings/addon/webservices/webservices_model.php" afterPath="$PROJECT_DIR$/modules/settings/addon/webservices/webservices_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/css/new-age.css" afterPath="$PROJECT_DIR$/views/css/new-age.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservice.php" afterPath="$PROJECT_DIR$/webservice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webservices/webservices_core/webservice_master.php" afterPath="$PROJECT_DIR$/webservices/webservices_core/webservice_master.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +27,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="routes_controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/transport/addon/routes/routes_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="64" lean-forward="true" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>no puede</find>
+      <find>wt_</find>
+      <find>drawPage</find>
+      <find>strNameClassMaster</find>
+      <find>arrInfoClass</find>
+      <find>setClass</find>
+      <find>getModosPermitidos</find>
+      <find>webservices_baseClass</find>
+      <find>333</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/transport/transport_controller.php" />
+        <option value="$PROJECT_DIR$/modules/transport/transport_model.php" />
+        <option value="$PROJECT_DIR$/modules/transport/addon/routes/routes_view.php" />
+        <option value="$PROJECT_DIR$/modules/transport/transport_view.php" />
+        <option value="$PROJECT_DIR$/modules/transport/addon/routes/routes_model.php" />
+        <option value="$PROJECT_DIR$/views/css/new-age.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+        <option value="$PROJECT_DIR$/modules/settings/sql/sql_transport" />
+        <option value="$PROJECT_DIR$/modules/settings/addon/webservices/webservices_model.php" />
+        <option value="$PROJECT_DIR$/webservice.php" />
+        <option value="$PROJECT_DIR$/modules/settings/addon/webservices/webservices_controller.php" />
+        <option value="$PROJECT_DIR$/webservices/webservices_core/webservice_master.php" />
+        <option value="$PROJECT_DIR$/modules/transport/addon/routes/routes_controller.php" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -22,6 +88,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -37,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -59,19 +127,289 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webservices" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservices" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservices_core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transport" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transport" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transport" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservices" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kernel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kernel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="METROG" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="SQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/transport/addon/routes" />
+      <recent name="$PROJECT_DIR$/modules/transport/addon" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,6 +423,75 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -95,32 +502,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493758498616</updated>
-      <workItem from="1493758499774" duration="25000" />
+      <workItem from="1493758499774" duration="1741000" />
+      <workItem from="1493761027446" duration="439000" />
+      <workItem from="1493761490138" duration="1677000" />
+      <workItem from="1493763912877" duration="976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25000" />
+    <option name="totallyTimeSpent" value="4833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37060702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -131,7 +542,654 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/transport/addon/routes/routes_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservices/webservices_core/webservice_master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="313" column="13" lean-forward="false" selection-start-line="313" selection-start-column="13" selection-end-line="313" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#101#0#PHP" expanded="false" />
+            <element signature="n#run#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#getOperation#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#1314#1468#0#PHP" expanded="false" />
+            <element signature="e#1359#1458#0#PHP" expanded="false" />
+            <element signature="n#getHtml#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#1630#2248#0#PHP" expanded="false" />
+            <element signature="e#1760#2099#0#PHP" expanded="false" />
+            <element signature="e#2257#2475#0#PHP" expanded="false" />
+            <element signature="n#create_services#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#setOperationCode#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#3232#3658#0#PHP" expanded="false" />
+            <element signature="e#3281#3562#0#PHP" expanded="false" />
+            <element signature="e#3425#3562#0#PHP" expanded="false" />
+            <element signature="e#3581#3658#0#PHP" expanded="false" />
+            <element signature="n#validate_fields_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#3751#3861#0#PHP" expanded="false" />
+            <element signature="e#3870#3984#0#PHP" expanded="false" />
+            <element signature="e#3993#4226#0#PHP" expanded="false" />
+            <element signature="e#4114#4226#0#PHP" expanded="false" />
+            <element signature="e#4235#4347#0#PHP" expanded="false" />
+            <element signature="e#4356#4462#0#PHP" expanded="false" />
+            <element signature="e#4471#4593#0#PHP" expanded="false" />
+            <element signature="e#4602#4724#0#PHP" expanded="false" />
+            <element signature="e#4733#5367#0#PHP" expanded="false" />
+            <element signature="e#4829#5307#0#PHP" expanded="false" />
+            <element signature="e#4961#5123#0#PHP" expanded="false" />
+            <element signature="e#5140#5293#0#PHP" expanded="false" />
+            <element signature="e#5376#5566#0#PHP" expanded="false" />
+            <element signature="n#validate_fields_extra#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#save_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#save_fields_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#7578#8629#0#PHP" expanded="false" />
+            <element signature="e#7674#8569#0#PHP" expanded="false" />
+            <element signature="n#save_functions_services#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#8970#9770#0#PHP" expanded="false" />
+            <element signature="e#9066#9710#0#PHP" expanded="false" />
+            <element signature="e#9782#9869#0#PHP" expanded="false" />
+            <element signature="e#10171#10322#0#PHP" expanded="false" />
+            <element signature="n#get_extra_function#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#10969#11435#0#PHP" expanded="false" />
+            <element signature="e#11022#11413#0#PHP" expanded="false" />
+            <element signature="n#getFormatResponse#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#get_info_class#0;n#webservices_controller#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <marker date="1493761688000" expanded="true" signature="880:1062" ph="SELECT op_uu... webservices_operations" />
+            <marker date="1493761688000" expanded="true" signature="2015:2077" ph="SELECT * FRO... webservices_operations" />
+            <marker date="1493761688000" expanded="true" signature="2203:2271" ph="SELECT * FRO... webservices_operations_extra_data" />
+            <marker date="1493761688000" expanded="true" signature="2742:2814" ph="SELECT * FRO... webservices_operations_extra_function" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="89" column="76" lean-forward="false" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="57" />
+          <folding>
+            <marker date="1493761688000" expanded="true" signature="880:1062" ph="SELECT op_uu... webservices_operations" />
+            <marker date="1493761688000" expanded="true" signature="2015:2077" ph="SELECT * FRO... webservices_operations" />
+            <marker date="1493761688000" expanded="true" signature="2203:2271" ph="SELECT * FRO... webservices_operations_extra_data" />
+            <marker date="1493761688000" expanded="true" signature="2742:2814" ph="SELECT * FRO... webservices_operations_extra_function" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="281" column="159" lean-forward="false" selection-start-line="281" selection-start-column="158" selection-end-line="281" selection-end-column="159" />
+          <folding>
+            <element signature="n#__construct#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="n#getInstance#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#575#688#0#PHP" expanded="false" />
+            <element signature="n#getArrButtons#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="n#setStrReport#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="n#scripts#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#1322#5575#0#HTML" expanded="false" />
+            <element signature="e#1398#1503#0#HTML" expanded="false" />
+            <element signature="e#1542#1859#0#HTML" expanded="false" />
+            <element signature="e#1904#2921#0#HTML" expanded="false" />
+            <element signature="e#2148#2901#0#HTML" expanded="false" />
+            <element signature="e#2360#2437#0#HTML" expanded="false" />
+            <element signature="e#2486#2759#0#HTML" expanded="false" />
+            <element signature="e#2802#2879#0#HTML" expanded="false" />
+            <element signature="e#2964#3292#0#HTML" expanded="false" />
+            <element signature="e#3087#3219#0#HTML" expanded="false" />
+            <element signature="e#3330#4444#0#HTML" expanded="false" />
+            <element signature="e#3453#3536#0#HTML" expanded="false" />
+            <element signature="e#3561#3646#0#HTML" expanded="false" />
+            <element signature="e#3674#4424#0#HTML" expanded="false" />
+            <element signature="e#3906#4402#0#HTML" expanded="false" />
+            <element signature="e#4019#4180#0#HTML" expanded="false" />
+            <element signature="e#4213#4376#0#HTML" expanded="false" />
+            <element signature="e#4483#5553#0#HTML" expanded="false" />
+            <element signature="e#4512#5533#0#HTML" expanded="false" />
+            <element signature="e#4779#4856#0#HTML" expanded="false" />
+            <element signature="e#4905#5391#0#HTML" expanded="false" />
+            <element signature="e#5009#5246#0#HTML" expanded="false" />
+            <element signature="e#5279#5364#0#HTML" expanded="false" />
+            <element signature="e#5434#5511#0#HTML" expanded="false" />
+            <element signature="e#6727#7649#0#PHP" expanded="false" />
+            <element signature="e#7914#9939#0#HTML" expanded="false" />
+            <element signature="e#8011#8236#0#HTML" expanded="false" />
+            <element signature="e#8053#8209#0#HTML" expanded="false" />
+            <element signature="e#8257#9911#0#HTML" expanded="false" />
+            <element signature="e#9956#13735#0#HTML" expanded="false" />
+            <element signature="e#10035#13509#0#HTML" expanded="false" />
+            <element signature="e#10083#13482#0#HTML" expanded="false" />
+            <element signature="e#10175#13451#0#HTML" expanded="false" />
+            <element signature="e#10387#11035#0#HTML" expanded="false" />
+            <element signature="e#10427#10994#0#HTML" expanded="false" />
+            <element signature="e#11068#13414#0#HTML" expanded="false" />
+            <element signature="e#11254#13334#0#PHP" expanded="false" />
+            <element signature="e#11325#13135#0#PHP" expanded="false" />
+            <element signature="e#11400#12920#0#PHP" expanded="false" />
+            <element signature="e#11536#12698#0#HTML" expanded="false" />
+            <element signature="e#13003#13135#0#PHP" expanded="false" />
+            <element signature="e#13210#13334#0#PHP" expanded="false" />
+            <element signature="e#13530#13707#0#HTML" expanded="false" />
+            <element signature="e#14628#16462#0#HTML" expanded="false" />
+            <element signature="e#14761#16386#0#PHP" expanded="false" />
+            <element signature="e#14830#16192#0#PHP" expanded="false" />
+            <element signature="e#14903#15982#0#PHP" expanded="false" />
+            <element signature="e#15033#15768#0#HTML" expanded="false" />
+            <element signature="e#15250#15480#0#HTML" expanded="false" />
+            <element signature="e#15529#15718#0#HTML" expanded="false" />
+            <element signature="e#16057#16192#0#PHP" expanded="false" />
+            <element signature="e#16259#16386#0#PHP" expanded="false" />
+            <element signature="e#16578#16756#0#HTML" expanded="false" />
+            <element signature="n#draw_input#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#16945#19541#0#PHP" expanded="false" />
+            <element signature="e#16985#17087#0#PHP" expanded="false" />
+            <element signature="e#17123#17360#0#HTML" expanded="false" />
+            <element signature="e#17414#19541#0#PHP" expanded="false" />
+            <element signature="e#17501#17838#0#HTML" expanded="false" />
+            <element signature="e#17887#18323#0#PHP" expanded="false" />
+            <element signature="e#17955#18287#0#HTML" expanded="false" />
+            <element signature="e#18341#19541#0#PHP" expanded="false" />
+            <element signature="e#18567#19202#0#HTML" expanded="false" />
+            <element signature="e#18808#19153#0#PHP" expanded="false" />
+            <element signature="e#19219#19505#0#HTML" expanded="false" />
+            <element signature="e#19276#19477#0#HTML" expanded="false" />
+            <element signature="e#19345#19453#0#HTML" expanded="false" />
+            <element signature="n#draw_line#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#19616#21012#0#PHP" expanded="false" />
+            <element signature="e#19676#20442#0#HTML" expanded="false" />
+            <element signature="e#20491#21012#0#PHP" expanded="false" />
+            <element signature="e#20532#20976#0#HTML" expanded="false" />
+            <element signature="e#20664#20800#0#HTML" expanded="false" />
+            <element signature="e#20821#20954#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/addon/routes/routes_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#101#0#PHP" expanded="false" />
+            <element signature="n#run#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#getOperation#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#1314#1468#0#PHP" expanded="false" />
+            <element signature="e#1359#1458#0#PHP" expanded="false" />
+            <element signature="n#getHtml#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#1630#2248#0#PHP" expanded="false" />
+            <element signature="e#1760#2099#0#PHP" expanded="false" />
+            <element signature="e#2257#2475#0#PHP" expanded="false" />
+            <element signature="n#create_services#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#setOperationCode#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#3232#3658#0#PHP" expanded="false" />
+            <element signature="e#3281#3562#0#PHP" expanded="false" />
+            <element signature="e#3425#3562#0#PHP" expanded="false" />
+            <element signature="e#3581#3658#0#PHP" expanded="false" />
+            <element signature="n#validate_fields_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#3751#3861#0#PHP" expanded="false" />
+            <element signature="e#3870#3984#0#PHP" expanded="false" />
+            <element signature="e#3993#4226#0#PHP" expanded="false" />
+            <element signature="e#4114#4226#0#PHP" expanded="false" />
+            <element signature="e#4235#4347#0#PHP" expanded="false" />
+            <element signature="e#4356#4462#0#PHP" expanded="false" />
+            <element signature="e#4471#4593#0#PHP" expanded="false" />
+            <element signature="e#4602#4724#0#PHP" expanded="false" />
+            <element signature="e#4733#5367#0#PHP" expanded="false" />
+            <element signature="e#4829#5307#0#PHP" expanded="false" />
+            <element signature="e#4961#5123#0#PHP" expanded="false" />
+            <element signature="e#5140#5293#0#PHP" expanded="false" />
+            <element signature="e#5376#5566#0#PHP" expanded="false" />
+            <element signature="n#validate_fields_extra#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#save_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#save_fields_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#7578#8629#0#PHP" expanded="false" />
+            <element signature="e#7674#8569#0#PHP" expanded="false" />
+            <element signature="n#save_functions_services#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#8970#9770#0#PHP" expanded="false" />
+            <element signature="e#9066#9710#0#PHP" expanded="false" />
+            <element signature="e#9782#9869#0#PHP" expanded="false" />
+            <element signature="e#10171#10322#0#PHP" expanded="false" />
+            <element signature="n#get_extra_function#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#10969#11435#0#PHP" expanded="false" />
+            <element signature="e#11022#11413#0#PHP" expanded="false" />
+            <element signature="n#getFormatResponse#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#get_info_class#0;n#webservices_controller#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/transport_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/addon/routes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/addon/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/transport_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/addon/routes/routes_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#175#203#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/addon/routes/routes_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/new-age.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="186" column="19" lean-forward="true" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/settings_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/settings_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/settings_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/database_sqlsrv_info.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/database_info.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3696">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/sql/sql_transport">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" column="97" lean-forward="false" selection-start-line="145" selection-start-column="97" selection-end-line="145" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservices/webservices_database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1460">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservices/webservices_database_sqlsrv.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librarys/php/report/hml_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding>
+            <marker date="1493416096000" expanded="true" signature="2780:2910" ph="..." />
+            <marker date="1493416096000" expanded="true" signature="2875:2894" ph="..." />
+            <marker date="1493416096000" expanded="true" signature="3832:7470" ph="..." />
+            <marker date="1493416096000" expanded="true" signature="4045:6506" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="4182:4559" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="4224:4344" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="4390:4501" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="4581:4808" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="4623:4747" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="5056:6377" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="5110:5171" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="5274:6359" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="5493:5963" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="5543:5679" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="5733:5860" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="5993:6337" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="6043:6183" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="6581:7397" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="6687:7383" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="7268:7365" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="8167:13744" ph="..." />
+            <marker date="1493416096000" expanded="true" signature="8348:8822" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="8890:11965" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="9428:11951" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="9485:9713" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="9739:9857" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="9982:10079" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="10213:10447" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="10527:11198" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="10745:10827" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="10857:11070" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="11261:11931" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="11479:11561" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="11591:11802" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="12083:12277" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="12361:12996" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="12587:12653" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="12675:12892" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="13063:13677" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="13289:13355" ph="{...}" />
+            <marker date="1493416096000" expanded="true" signature="13377:13556" ph="{...}" />
+            <marker date="1493416096000" expanded="false" signature="43732:43753" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="285" column="89" lean-forward="false" selection-start-line="285" selection-start-column="68" selection-end-line="285" selection-end-column="89" />
+          <folding>
+            <element signature="n#__construct#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="n#getInstance#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#575#688#0#PHP" expanded="false" />
+            <element signature="n#getArrButtons#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="n#setStrReport#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="n#scripts#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#1322#5575#0#HTML" expanded="false" />
+            <element signature="e#1398#1503#0#HTML" expanded="false" />
+            <element signature="e#1542#1859#0#HTML" expanded="false" />
+            <element signature="e#1904#2921#0#HTML" expanded="false" />
+            <element signature="e#2148#2901#0#HTML" expanded="false" />
+            <element signature="e#2360#2437#0#HTML" expanded="false" />
+            <element signature="e#2486#2759#0#HTML" expanded="false" />
+            <element signature="e#2802#2879#0#HTML" expanded="false" />
+            <element signature="e#2964#3292#0#HTML" expanded="false" />
+            <element signature="e#3087#3219#0#HTML" expanded="false" />
+            <element signature="e#3330#4444#0#HTML" expanded="false" />
+            <element signature="e#3453#3536#0#HTML" expanded="false" />
+            <element signature="e#3561#3646#0#HTML" expanded="false" />
+            <element signature="e#3674#4424#0#HTML" expanded="false" />
+            <element signature="e#3906#4402#0#HTML" expanded="false" />
+            <element signature="e#4019#4180#0#HTML" expanded="false" />
+            <element signature="e#4213#4376#0#HTML" expanded="false" />
+            <element signature="e#4483#5553#0#HTML" expanded="false" />
+            <element signature="e#4512#5533#0#HTML" expanded="false" />
+            <element signature="e#4779#4856#0#HTML" expanded="false" />
+            <element signature="e#4905#5391#0#HTML" expanded="false" />
+            <element signature="e#5009#5246#0#HTML" expanded="false" />
+            <element signature="e#5279#5364#0#HTML" expanded="false" />
+            <element signature="e#5434#5511#0#HTML" expanded="false" />
+            <element signature="e#6727#7649#0#PHP" expanded="false" />
+            <element signature="e#7914#9939#0#HTML" expanded="false" />
+            <element signature="e#8011#8236#0#HTML" expanded="false" />
+            <element signature="e#8053#8209#0#HTML" expanded="false" />
+            <element signature="e#8257#9911#0#HTML" expanded="false" />
+            <element signature="e#9956#13735#0#HTML" expanded="false" />
+            <element signature="e#10035#13509#0#HTML" expanded="false" />
+            <element signature="e#10083#13482#0#HTML" expanded="false" />
+            <element signature="e#10175#13451#0#HTML" expanded="false" />
+            <element signature="e#10387#11035#0#HTML" expanded="false" />
+            <element signature="e#10427#10994#0#HTML" expanded="false" />
+            <element signature="e#11068#13414#0#HTML" expanded="false" />
+            <element signature="e#11254#13334#0#PHP" expanded="false" />
+            <element signature="e#11325#13135#0#PHP" expanded="false" />
+            <element signature="e#11400#12920#0#PHP" expanded="false" />
+            <element signature="e#11536#12698#0#HTML" expanded="false" />
+            <element signature="e#13003#13135#0#PHP" expanded="false" />
+            <element signature="e#13210#13334#0#PHP" expanded="false" />
+            <element signature="e#13530#13707#0#HTML" expanded="false" />
+            <element signature="e#14628#16462#0#HTML" expanded="false" />
+            <element signature="e#14761#16386#0#PHP" expanded="false" />
+            <element signature="e#14830#16192#0#PHP" expanded="false" />
+            <element signature="e#14903#15982#0#PHP" expanded="false" />
+            <element signature="e#15033#15768#0#HTML" expanded="false" />
+            <element signature="e#15250#15480#0#HTML" expanded="false" />
+            <element signature="e#15529#15718#0#HTML" expanded="false" />
+            <element signature="e#16057#16192#0#PHP" expanded="false" />
+            <element signature="e#16259#16386#0#PHP" expanded="false" />
+            <element signature="e#16578#16756#0#HTML" expanded="false" />
+            <element signature="n#draw_input#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#16945#19541#0#PHP" expanded="false" />
+            <element signature="e#16985#17087#0#PHP" expanded="false" />
+            <element signature="e#17123#17360#0#HTML" expanded="false" />
+            <element signature="e#17414#19541#0#PHP" expanded="false" />
+            <element signature="e#17501#17838#0#HTML" expanded="false" />
+            <element signature="e#17887#18323#0#PHP" expanded="false" />
+            <element signature="e#17955#18287#0#HTML" expanded="false" />
+            <element signature="e#18341#19541#0#PHP" expanded="false" />
+            <element signature="e#18567#19202#0#HTML" expanded="false" />
+            <element signature="e#18808#19153#0#PHP" expanded="false" />
+            <element signature="e#19219#19505#0#HTML" expanded="false" />
+            <element signature="e#19276#19477#0#HTML" expanded="false" />
+            <element signature="e#19345#19453#0#HTML" expanded="false" />
+            <element signature="n#draw_line#0;n#webservices_view#0;n#!!block;n#View#0;n#!!top" expanded="false" />
+            <element signature="e#19616#21012#0#PHP" expanded="false" />
+            <element signature="e#19676#20442#0#HTML" expanded="false" />
+            <element signature="e#20491#21012#0#PHP" expanded="false" />
+            <element signature="e#20532#20976#0#HTML" expanded="false" />
+            <element signature="e#20664#20800#0#HTML" expanded="false" />
+            <element signature="e#20821#20954#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservices/webservices_baseclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="350" column="19" lean-forward="false" selection-start-line="350" selection-start-column="19" selection-end-line="350" selection-end-column="19" />
+          <folding>
+            <marker date="1493416097000" expanded="true" signature="14355:14476" ph="SELECT id, u... webservices_devices" />
+            <marker date="1493416097000" expanded="true" signature="14687:14835" ph="SELECT useri... main_user" />
+            <marker date="1493416097000" expanded="true" signature="15353:15429" ph="UPDATE webse... " />
+            <marker date="1493416097000" expanded="true" signature="23588:23647" ph="SELECT modif... webservices_devices" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/transport_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="89" column="76" lean-forward="false" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <marker date="1493761688000" expanded="true" signature="880:1062" ph="SELECT op_uu... webservices_operations" />
+            <marker date="1493761688000" expanded="true" signature="2015:2077" ph="SELECT * FRO... webservices_operations" />
+            <marker date="1493761688000" expanded="true" signature="2203:2271" ph="SELECT * FRO... webservices_operations_extra_data" />
+            <marker date="1493761688000" expanded="true" signature="2742:2814" ph="SELECT * FRO... webservices_operations_extra_function" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webservices/webservices_core/webservice_master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/settings/addon/webservices/webservices_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="321" column="39" lean-forward="false" selection-start-line="321" selection-start-column="39" selection-end-line="321" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#101#0#PHP" expanded="false" />
+            <element signature="n#run#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#getOperation#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#1314#1468#0#PHP" expanded="false" />
+            <element signature="e#1359#1458#0#PHP" expanded="false" />
+            <element signature="n#getHtml#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#1630#2248#0#PHP" expanded="false" />
+            <element signature="e#1760#2099#0#PHP" expanded="false" />
+            <element signature="e#2257#2475#0#PHP" expanded="false" />
+            <element signature="n#create_services#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#setOperationCode#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#3232#3658#0#PHP" expanded="false" />
+            <element signature="e#3281#3562#0#PHP" expanded="false" />
+            <element signature="e#3425#3562#0#PHP" expanded="false" />
+            <element signature="e#3581#3658#0#PHP" expanded="false" />
+            <element signature="n#validate_fields_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#3751#3861#0#PHP" expanded="false" />
+            <element signature="e#3870#3984#0#PHP" expanded="false" />
+            <element signature="e#3993#4226#0#PHP" expanded="false" />
+            <element signature="e#4114#4226#0#PHP" expanded="false" />
+            <element signature="e#4235#4347#0#PHP" expanded="false" />
+            <element signature="e#4356#4462#0#PHP" expanded="false" />
+            <element signature="e#4471#4593#0#PHP" expanded="false" />
+            <element signature="e#4602#4724#0#PHP" expanded="false" />
+            <element signature="e#4733#5367#0#PHP" expanded="false" />
+            <element signature="e#4829#5307#0#PHP" expanded="false" />
+            <element signature="e#4961#5123#0#PHP" expanded="false" />
+            <element signature="e#5140#5293#0#PHP" expanded="false" />
+            <element signature="e#5376#5566#0#PHP" expanded="false" />
+            <element signature="n#validate_fields_extra#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#save_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#save_fields_service#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#7578#8629#0#PHP" expanded="false" />
+            <element signature="e#7674#8569#0#PHP" expanded="false" />
+            <element signature="n#save_functions_services#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#8970#9770#0#PHP" expanded="false" />
+            <element signature="e#9066#9710#0#PHP" expanded="false" />
+            <element signature="e#9782#9869#0#PHP" expanded="false" />
+            <element signature="e#10171#10322#0#PHP" expanded="false" />
+            <element signature="n#get_extra_function#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="e#10969#11435#0#PHP" expanded="false" />
+            <element signature="e#11022#11413#0#PHP" expanded="false" />
+            <element signature="n#getFormatResponse#0;n#webservices_controller#0;n#!!top" expanded="false" />
+            <element signature="n#get_info_class#0;n#webservices_controller#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/global_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="1127" column="31" lean-forward="false" selection-start-line="1127" selection-start-column="31" selection-end-line="1127" selection-end-column="31" />
+          <folding>
+            <marker date="1493416096000" expanded="true" signature="7466:7481" ph="..." />
+            <marker date="1493416096000" expanded="true" signature="26665:26678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/transport/addon/routes/routes_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="64" lean-forward="true" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

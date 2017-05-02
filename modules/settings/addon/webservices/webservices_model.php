@@ -31,9 +31,9 @@ namespace settings\webservices\Model{
         public function getRptWebservices(){
             if($this->check_user_access("settings/merchant/consultar")){
                 include_once("librarys/php/report/hml_report.php");
-                $strQuery = "op_uuid AS Codigo,descripcion AS Descripcion,activo AS Activo||
-                             webservices_operations||
-                             Activo = 'Y' ¿f? ¿o?";
+                $strQuery = "SELECT op_uuid AS Codigo,descripcion AS Descripcion,activo AS Activo
+                             FROM 	webservices_operations
+                             WHERE	activo = 'Y' ¿f? ¿o?";
 
                 $arrEncabezado = array();
                 $arrParametros = array();

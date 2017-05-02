@@ -87,7 +87,7 @@ else{
 						$varReturn = webservice_check_saved_response($objWebservice->getDeviceID(), $arrParametros["aim"], $strFormatoRespuesta);
 					}
 					if ($varReturn !== "stop") {
-						if ($objWebservice->setArrParam($arrParametros)) {
+						if ($objWebservice->setParametros($arrParametros)) {
 							$objWebservice->darRespuesta();
 						}
 						else {
