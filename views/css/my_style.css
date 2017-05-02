@@ -1,0 +1,696 @@
+@CHARSET "UTF-8";
+body{ 
+	font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	color: #555555;
+	font-weight: normal;
+    height: 100%;
+}
+
+section {
+	width:100%;
+	height: auto;
+}
+
+/*Estilos de los DIV */
+#content {
+	margin: 10px; 
+    padding: 0;
+	position: absolute;
+    top: 90px; 
+    width: 96%; 
+}
+#cabecera{
+	height: 20%; 
+    position: absolute; 
+    width: 96%;
+	margin:auto;
+	top:10px;
+}
+div#finalizar{
+     background-color: #7fbc3c;
+    padding: 0.5%;
+    position: fixed;
+    right: 10%;
+    top: 15%;
+    width: 22%;
+}
+div#desactivo{
+    height: 100%;
+    left: 0.9%;
+    position: absolute;
+    top: auto;
+    width: 98%;
+   background-color:gray;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+div#cargando{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+   background-color:red;
+}
+
+div.desactivo_titulo{
+    position: fixed;
+    right: 3%;
+    text-align: center;
+   top: 124px; 
+    width: 40%;
+}
+
+#logo{
+	position:relative;
+	width:50%;
+}
+
+div.logosmall{
+    float: left;
+    position: relative;
+    top: 0;
+}
+
+table{
+	width:100%;	
+	font-size:8pt;
+}
+
+table.asis{
+	width:100%;	
+	font-size:8pt;
+}
+
+table.asis tr.par{
+	background-color:#FFFFFF;
+}
+table.asis tr td{
+	padding: 0.8%;	
+}
+
+table.asis tr:hover{
+	background-color:#FFF6F0;
+	color:#E17009;
+}
+td .textoejemplo { 
+	background:#ffffe9 url(../imagenes/bgdeginfo.gif) top repeat-x; 
+	border:1px solid #E2E0A0;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	padding:2px 4px;
+	color:#595115;
+	white-space:nowrap;
+	-moz-box-shadow:2px 2px 6px #CCC;
+	-webkit-box-shadow:2px 2px 6px #CCC;
+}
+
+.textoejemplo { font-size: x-small; }
+
+div#titulos{
+    color: #2E6E9E;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    text-shadow:0 0 5px #999; 
+	font-size: 18px;
+}
+
+div#mensajeinfo {
+    padding: 4px;
+    position: absolute;
+    right: 0%;
+    top: 0;
+	width: 20%;
+    float: left;
+}
+
+/*
+* Estilos de las Tablas para listados
+*/
+
+table.datos tbody tr:hover{
+	background-color:#FFF6F0;
+	color:#E17009;
+}
+
+table.datos td{
+	border-top:1px solid #ccc;
+	border-left:1px solid #f0f0f0;
+}
+table.datos th{
+	border-left:1px solid;
+	color:#0073EA;
+	background-color: #CCCCCC;
+}
+
+table.datos th:first-child{
+	min-width:8%;
+}
+
+table.datos tr.par{
+	background-color:#F2F2FF;
+}
+table.datos tbody tr td.positivo{
+	color:#009900;
+}
+table.datos tbody tr td.negativo{
+	color:#FF3300;
+}
+table.datos tr.resaltar{
+	background-color: #FFEC6A;
+}
+
+table.datos tr.resaltar td{
+	border-left:1px solid #fbe443;
+}
+
+table.datos tr.resaltar:hover{
+	background-color:#fbe443;
+}
+
+table.datos, table.footer{
+	font-size:9pt;
+	border:1px solid #ddd;
+	width:100%;
+}
+
+table.formulario{
+	font-size:9pt;
+	border:0px solid #ddd;
+	width:100%;
+}
+
+/*
+* Estilos de los Contenedores
+*/
+
+div.ContenedorFlotante {
+	/*
+	* Para crear un contenedor flotante tranparente
+	*/
+	background:none;
+	background-color:rgba(255,255,255,0.4);
+	position:fixed;
+	top:15%;
+	left:25%;
+	width:50%;
+	padding:8px;
+	-moz-box-shadow: 0px 0px 16px #777;
+	-webkit-box-shadow: 0px 0px 16px #777;
+	box-shadow: 0px 0px 16px #777;	
+}
+
+div.Contenedor {
+	clear:both;
+	padding-bottom:1%;
+	width:100%;
+}
+
+div.Contenedor div.ContenedorCampos {
+	clear:both;
+	float:left;
+	padding-bottom:5px;
+	width:100%;
+}
+
+div.Contenedor div.ContenedorCampos div.ContenedorLeft{
+	clear:none;
+	float:left;
+	padding-bottom:0;
+	width:50%;
+}
+div.Contenedor div.ContenedorCampos div.ContenedorRight{
+	clear:none;
+	float:right;
+	padding-bottom:0;
+	width:50%;
+}
+
+div.Contenedor div.ContenedorCampos div.ContenedorLeft div{
+	clear:none;
+	float:left;
+	padding:1%;
+	width:100%;
+}
+
+div.Contenedor div.ContenedorCampos div.ContenedorLeft div div{
+	clear:none;
+	float:right;
+	padding-bottom:0;
+	width:50%;
+}
+
+div.Contenedor div.ContenedorCampos div.ContenedorRight div{
+	clear:none;
+	float:left;
+	padding:1%;
+	width:100%;
+}
+div.Contenedor div.ContenedorCampos div.ContenedorRight div div{
+	clear:none;
+	float:right;
+	padding-bottom:0;
+	width:50%;
+}
+
+a{
+	margin:1px;
+	color:#2E6E9E;
+	padding:0 2px 1px;
+	cursor:pointer;
+}
+
+/*input[type="text"], textarea, input[type="file"], input[type="email"], input[type="password"], select{
+	selection:text;
+	-moz-user-select:text;
+	-khtml-user-select:text;
+	user-select:text;
+	-o-user-select:text;
+	cursor:text;
+	width:60% !important;
+}*/
+input.number{
+	text-align:right;
+}
+
+select{
+	moz-box-shadow: 0 0 2px #DDDDDD;
+    border: 2px solid #DDDDDD;
+    padding: 2px;
+    text-shadow: 0 0 2px #DDDDDD;
+    width: 60%;
+}
+
+/*
+* Estilos de los SPAN
+*/
+span.req{
+    color:#C00;
+    font-weight:bold;
+    line-height:2;
+    margin-left:4px;
+    font-size:small;
+}
+
+.error{
+	color:#C00;
+	font-weight:bold;
+	line-height:0;
+	margin-left:4px;
+	font-size:small;
+	border-color:red;
+}
+span.nro{
+	color:blue;
+	font-weight:bold;
+	line-height:0;
+	margin-left:4px;
+	text-shadow:0 0 3px;
+}
+span.msj{
+color:#C00;
+font-style: italic;
+font-size: 14px;
+font-weight:normal;
+font-family:"Times New Roman",Georgia,Serif;
+margin-left:25px;
+}
+/*
+* Estilos para los redondeos
+*/
+
+.redondear8, tfoot td, table.datos, table.datos thead, table.datos thead tr, table.footer{
+	-ms-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.noredondearabajoizq, .noredondearabajo, div.moduloModalContainer h4, div.detallefactura table.footer, div.detallefactura tfoot td, div.detallenotacredito table.footer, div.detallenotacredito tfoot td{
+	-webkit-border-bottom-left-radius: 0px !important;
+	-khtml-border-radius-bottomleft: 0px !important;
+	-moz-border-radius-bottomleft: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+.noredondearabajoder, .noredondearabajo, div.moduloModalContainer h4, div.detallefactura table.footer, div.detallefactura tfoot td, div.detallenotacredito table.footer, div.detallenotacredito tfoot td{
+	-webkit-border-bottom-right-radius: 0px !important;
+	-khtml-border-radius-bottomright: 0px !important;
+	-moz-border-radius-bottomright: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+div.moduloModalContainer {
+	background:none;
+	background-color:rgba(255,255,255,0.4);
+	position:fixed;
+	width:97%;
+	padding:8px;
+	-moz-box-shadow: 0px 0px 16px #777;
+	-webkit-box-shadow: 0px 0px 16px #777;
+	box-shadow: 0px 0px 16px #777;
+}
+div.moduloModalContainer.modalFullScreen{
+	left:2%;
+	width:95%;
+}
+div.moduloModalContainer div.moduloModal{
+	background:#FFF;
+	height:100%;
+	overflow:visible;
+	-moz-box-shadow: 0px 0px 16px #aaa;
+	-webkit-box-shadow: 0px 0px 16px #aaa;
+	box-shadow: 0px 0px 16px #aaa;
+}
+div.moduloModalContainer h4{
+	margin:0;
+	padding:5px;
+	color:#FFF;
+	font-weight:normal;
+	text-shadow: 2px 2px 6px #333;
+}
+div.moduloModalContainer form {
+	padding:0;
+}
+div.moduloModalContainer div.formContainer {
+	width:90%;
+}
+.noredondeararribaizq, .noredondeararriba, tfoot td, table.footer{
+	-webkit-border-top-left-radius: 0px !important;
+	-khtml-border-radius-topleft: 0px !important;
+	-moz-border-radius-topleft: 0px !important;
+	border-top-left-radius: 0px !important;
+}
+.noredondeararribader, .noredondeararriba, tfoot td, table.footer{
+	-webkit-border-top-right-radius: 0px !important;
+	-khtml-border-radius-topright: 0px !important;
+	-moz-border-radius-topright: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+.Redondear{
+	-ms-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+/*
+* Estilo del menu
+*/
+div#menu{
+	left: 50%;
+    position: absolute;
+    top: 5%;
+	width: 130px;
+}
+
+a.linkModulo {
+	padding:0 2px 1px 16px;
+}
+
+a.linkModulo:hover{
+	background-color: #D9E2EC;
+}
+
+.espacio {
+    height: 5px;
+    top: 65px;
+    width: 100%;
+}
+textarea[disabled], select[disabled], input[disabled], input[readonly], div.input[disabled]{
+	color:#aaa !important;
+	cursor:no-drop !important;
+	cursor:not-allowed !important;
+}
+
+h1.SaltoDePagina
+{	
+	PAGE-BREAK-AFTER: always;
+}
+/* Input - Areas de Texto */
+textarea:focus, input[type="text"]:focus, select:focus{
+
+}
+
+/*input, textarea, select {background:url("../images/buttonbg.jpg") repeat-x scroll 0 0 transparent; border:1px solid #e1e1e1; -moz-border-radius: 4px; border-radius: 4px; padding-right: 4px;}*/
+
+
+/* Formularios */
+.formulario{
+	width:100%;
+	height:auto;
+	float:left;
+	border:thin solid #C4C4C4;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	position:relative;
+	top:5%;
+}
+
+div.formContainer div {
+	border:#0F0 0px solid;
+	clear:both;
+	float:left;
+	padding-bottom:5px;
+	width:100%;
+}
+
+div.formContainer input{
+	width:auto;
+}
+div.formContainer select{
+	width:auto;
+}
+div.formContainer textarea{
+	width:auto;
+	resize:none;
+	overflow-y: auto;
+}
+
+hr{
+	background-color: #FFCC00;
+    color: #FFCC00;
+    height: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input.rojo {
+    background: none repeat-x scroll 0 0 #CC6600;
+    color: #FFFFFF;
+	cursor:pointer;
+}
+
+fieldset {
+    border-color: #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+legend {
+    color: #4D6FA3;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#footer{
+	width:100%;
+	height:80px;
+	background-position: center top;
+    text-align: center;
+}
+
+#caption{
+	font-weight:bold;
+}
+
+.progress-label {
+    float: left;
+    margin-left: 50%;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+
+  
+/* sliding panel */
+#toppanel {
+    position: static;   /*Panel will overlap  content */
+    top: 0;
+    width: 70%;     
+    text-align: center;
+    margin-left: initial;  
+}
+
+#panel {
+	--width: 50%;
+	height: 90px;
+	color: #999999;
+	overflow: hidden;
+	position: static;
+	z-index: 3;
+	display: block;
+    float: left;
+}
+
+/***** clearfix *****/
+.clear {clear: both;height: 0;line-height: 0;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clearfix {height: 1%;}
+.clearfix {display: block;}
+
+#panel h1 {
+	font-size: 1.6em;
+	padding: 5px 0 10px;
+	margin: 0;
+	color: white;
+}
+
+#panel h2{
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	margin: 0;
+	color: white;
+}
+
+#panel p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#panel a {
+	text-decoration: none;
+	color: #15ADFF;
+}
+
+#panel a:hover {
+	color: #E17009;
+}
+
+#panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+#panel .content {
+	width: 350px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+#panel .content .left {
+	float: left;
+	padding: 0 ; 
+	border-left: 1px solid #EAF5F7;
+	text-align: center;
+}
+
+#panel .content .right {
+	border-right: 1px solid #EAF5F7;
+}
+
+#panel .content form {
+	margin: 0 0 10px 0;
+}
+
+#panel .content label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 280px;
+	display: block;
+}
+
+#panel .content input.field {
+	border: 1px #1A1A1A solid;
+	background: #414141;
+	margin-right: 5px;
+	margin-top: 4px;
+	width: 200px;
+	color: white;
+	height: 16px;
+}
+
+#panel .content input:focus.field {
+	background: #545454;
+}
+
+#mainContent {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin: 0 0 0 250px;
+    padding: 5px;
+}
+
+
+/*Estilo para checkbox y radiobutton*/
+.divCheckbox{
+    width:'100%';
+    border:0px solid red;
+    min-height:30px;
+    position: relative;
+    top: 5px;
+}
+
+.panel-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.panel-center-half-width {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.btn-panel-selected {
+    background-color: #e2e2e2;
+    border: 1px solid #69b0ea;
+}
+
+.btn-circle {
+    border-radius: 15px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 1.42857;
+    padding: 6px 0;
+    text-align: center;
+    width: 30px;
+}
+
+.panel-button-finish {
+    height: 30px;
+}
+
+.panel-report-tab {
+    padding: 0;
+}
+
+.button_right{
+    float:right;
+}
+
+.button_documento{
+    width:50%;
+    text-align: center;
+    font-size: 17px; 
+}
+
+.button_email{
+    width:50%;
+    text-align: center;  
+}

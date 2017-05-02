@@ -1,0 +1,12 @@
+Development:
+	- Edward Acu
+	- Alexander Flores
+
+Para correr el sistema hacer:
+
+    - SQL server 2014
+    - Apache 2.4
+    - php 5.4
+
+
+NOTAS DE DESARROLLO:

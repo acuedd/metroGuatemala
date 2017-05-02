@@ -1,0 +1,362 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/07/2016, 11:37:01 AM
+    Author     : EACU
+*/
+
+@font-face {
+    font-family: 'SegoeUI-Light';
+    src: url(../fonts/Segoe/segouil.eot);
+    src: url(../fonts/Segoe/segouil.woff) format('woff'), url(../fonts/Segoe/segouil.ttf) format('truetype');
+}
+.clickable {
+    cursor: pointer;
+}
+
+.highlighted {
+    font-family:"SegoeUI-Light", sans-serif;
+    font-size: 11px;
+    color: #333;
+    background: #C7F4F9;
+}
+.error {
+    color: gray;
+    font-family:"SegoeUI-Light", sans-serif;
+    font-size: 11px;
+}
+
+.info {
+    color: #0489B1;
+    font-family:"SegoeUI-Light", sans-serif;
+    font-size: 14px;
+}
+
+.pageLogo{
+    float: left;
+    width: 220px;
+    height: 70px;
+    /*z-index: 1001;*/
+    margin-top: -25px
+}
+.pageLogo img{
+    width: 70%;   
+    height: 100px;
+}
+.pageLogin{
+    float: right;
+    width: 210px;
+    height: 55px;
+    padding: 10px;
+    z-index: 1001;
+    position: relative;
+    cursor: pointer;    
+}
+.pageLogin:hover{
+    opacity: 0.4;
+    -moz-opacity: 0.4;
+    -webkit-opacity: 0.4;
+    filter:alpha(opacity=10);
+}
+.photoUser{
+    width: 55px;
+    float: left;  
+    margin-top: -10px;
+}
+.photoUser img{
+    width: 55px;    
+}
+.loginShort{
+    float: right;
+    width: 20%;
+    padding: 5px;
+    height: 30px;    
+    display: none;
+}
+.loginShort img{
+    width: 30px;
+    cursor: pointer;    
+}
+.loginShort img:hover{
+    opacity: 0.4;
+    -moz-opacity: 0.4;
+    -webkit-opacity: 0.4;
+    filter:alpha(opacity=10);
+}
+.optionsUser{
+    width: 110px;
+    float: left;
+    height: 20px;
+    margin-top: 5px;
+}
+.optionsUser label{
+    font-size: 15px;    
+    font-family:"SegoeUI-Light", sans-serif;
+    cursor: pointer;
+}
+
+
+/* these are used by modules and core to render text inside tables */
+.centerboxtext {
+    color: #333;
+    font-family:"SegoeUI-Light", sans-serif;
+    font-size: 14px;
+    background: white;
+    padding: 0px;
+    background-color: white; 
+    border-top: 0px; 
+    margin-bottom: 10px;    
+}
+
+.MenuButton{
+    /*position:fixed !important;*/
+    z-index:10 !important;
+    right:3%;
+    /*top:85px;*/
+    margin: auto auto auto auto;
+    width: auto;
+    padding: 0.5em;
+    cursor: move;
+    float: right;
+    text-align: right;
+}
+
+.IEMenuButton{
+    z-index:10 !important;
+    right:200px;
+    top:10px;
+    width: auto;
+    padding: 0.5em;
+    cursor: move;
+    float: right;
+    text-align: right;
+}
+
+.row-header{
+    padding: 12px 60px 17px 85px;
+    min-height: 80px;
+    margin-top: -20px;
+    background-color: #fff;
+    border-color: #fff;
+}
+.bg-white{
+    background-color: #fff;
+}
+
+.Content{
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.Content label{
+    color:#253a95
+}
+.Content h1, h2, h3, h4, h5, h6{
+    color:  #FEA01E;
+}
+
+/*estilo para pantallas de 800px*/
+@media screen and (max-width:1900px){
+    .Content{        
+        /*margin-top: 105px;*/
+    }
+}
+@media screen and (max-width:1830px){
+    .Content{        
+        /*margin-top: 95px;*/
+    }
+}
+@media screen and (max-width:1620px){
+    .Content{        
+        /*margin-top: 90px;*/
+    }
+}
+@media screen and (max-width:1520px){
+    .Content{        
+        /*margin-top: 85px;*/
+    }
+}
+@media screen and (max-width:1120px){
+    .contentLinks #links div{
+        width: 45%;
+        height: 35px;
+    }
+    .pageTitulo{
+        padding: 10px 0;
+        font-size: 26px;        
+    }
+    .Content{
+        /*margin-top: 80px;*/
+    }
+    #IrArriba span {
+        width: 40px; /* Ancho del bot�n */
+        height: 40px; /* Alto del bot�n */
+    }
+    #IrArriba span img{
+        width: 40px; /* Ancho del bot�n */        
+    }
+    #IrArriba {
+        right: 47.5%; /* Distancia desde la derecha */
+    }
+}
+@media screen and (max-width:800px){
+    .pageHeader{
+        width: 100%;
+        height: 65px;
+    }
+    .pageLogo{
+        width: 200px;
+        height: 65px;
+    }
+    .pageLogin{
+        width: 190px;
+        height: 50px;
+    }
+    .photoUser{
+        width: 50px;        
+    }
+    .photoUser img{
+        width: 50px;        
+    }
+    .optionsUser{
+        margin-top: 5px;
+    }
+    .contentLinks #links div{
+        font-size: 14px;
+    }
+    .Content{        
+        margin-top: 75px;
+    }
+    .pageTitulo{
+        height:25px;
+        padding: 10px 0;
+        font-size: 24px;        
+    }
+    .bottomT div{
+        width: 200px;
+    }
+}
+
+/*estilo para pantallas de 520px*/
+@media screen and (max-width:520px){
+    .pageHeader{
+        width: 100%;
+        height: auto;        
+    }
+    .pageLogo{
+        width: 145px;
+        height: 55px;
+    }
+    .pageLogin{
+        width: 175px;
+        height: 40px;
+    }
+    .photoUser{
+        width: 40px;        
+    }
+    .photoUser img{
+        width: 40px;        
+    }
+    .optionsUser{
+        width: 100px;
+        margin-top: 1px;
+        height: 30px;
+    }
+    .contentLinks #links div{
+        width: 100%;
+        height: auto;
+    }
+    .Content{        
+/*        margin-top: 110px;*/
+    }
+    .pageTitulo{        
+        padding: 5px 0;
+        font-size: 20px;        
+    }
+    .bottomT div{
+        width: 150px;
+    }
+    #IrArriba {
+        right: 45.5%; /* Distancia desde la derecha */
+    }
+}
+
+/*estilo para pantallas de 320px*/
+@media screen and (max-width:320px){
+    .pageHeader{
+        width: 100%;
+        height: 70px;        
+    }    
+    .pageLogo{        
+        width: 100px;
+        height: 35px;
+    }
+    .pageLogin{
+        width: 120px;
+        height: 20px;
+    }
+    .photoUser{
+        width: 20px;        
+    }
+    .photoUser img{
+        width: 20px;        
+    }
+    .optionsUser{
+        width: 70px;
+        margin-top: 0;
+        height: 20px;
+    }
+    .optionsUser label{
+        font-size: 12px;
+    }
+    .Content{        
+        /*margin-top: 85px;*/
+    }
+    .pageTitulo{        
+        padding: 5px 0;
+        font-size: 20px;        
+    }
+    .bottomT div{
+        width: 120px;
+    }
+    .miniMenu{
+        width: 200px;
+    }
+    #IrArriba {
+        right: 43%; /* Distancia desde la derecha */
+    }
+
+}
+
+/*estilo para pantallas de 240px*/
+@media screen and (max-width:240px){
+    .pageHeader{
+        width: 100%;        
+        height: 60px;        
+    }
+    .pageLogo{        
+        width: 110px;
+        height: 40px;
+    }
+    .pageLogin{
+        display: none;        
+    }
+    .loginShort{
+        display: block
+    }    
+    .Content{        
+        /*margin-top: 80px;*/
+    }
+    .bottomT div{
+        width: 90px;
+    }
+    .miniMenu{
+        width: 150px;
+    }
+    #IrArriba {
+        right: 41%; /* Distancia desde la derecha */
+    }
+}
