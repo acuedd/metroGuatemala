@@ -29,18 +29,37 @@ class routes_controller extends transport_controller implements controller
 
 	public function getRoutes(){
 		$arrResponse = array();
-		array_push($arrResponse, array( "h1"=>"Ruta principal",
-										"h2"=> "Mixco terminal",
-										"busfare"=>"2",
-										"stars"=> "5"));
-		array_push($arrResponse, array( "h1"=>"Ruta principal 2 ",
-			"h2"=> "Mixco terminal",
-			"busfare"=>"2",
-			"stars"=> "5"));
-		array_push($arrResponse, array( "h1"=>"Ruta principal 3 ",
-			"h2"=> "Mixco terminal",
-			"busfare"=>"2",
-			"stars"=> "5"));
+
+		$arrparams = $this->arrParam;
+		self::drawdebug($arrparams);
+
+		$arr = array();
+		$arr["h1"] = "Ruta principal";
+		$arr["h2"] = "Mixco terminal";
+		$arr["h3"] = "Mixco terminal";
+		$arr["busmame"] = "2";
+		$arr["busfare"] = "2";
+		$arr["stars"] =  "5";
+		array_push($arrResponse, $arr);
+
+		$arr = array();
+		$arr["h1"] = "Ruta principal 2";
+		$arr["h2"] = "Mixco terminal";
+		$arr["h3"] = "Mixco terminal";
+		$arr["busmame"] = "2";
+		$arr["busfare"] = "2";
+		$arr["stars"] =  "5";
+		array_push($arrResponse, $arr);
+
+		$arr = array();
+		$arr["h1"] = "Ruta principal 2";
+		$arr["h2"] = "Mixco terminal";
+		$arr["h3"] = "Mixco terminal";
+		$arr["busmame"] = "2";
+		$arr["busfare"] = "2";
+		$arr["stars"] =  "5";
+		array_push($arrResponse, $arr);
+
 
 		return \kernel\Controller\response_webservice::response(1,"holi",array("detail"=>$arrResponse));
 	}
