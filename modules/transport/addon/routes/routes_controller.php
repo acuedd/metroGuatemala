@@ -30,8 +30,8 @@ class routes_controller extends transport_controller implements controller
 	public function getRoutes(){
 		$arrResponse = array();
 
-		$arrparams = $this->arrParam;
-		self::drawdebug($arrparams);
+		/*$arrparams = $this->arrParam;
+		self::drawdebug($arrparams);*/
 
 		$arr = array();
 		$arr["h1"] = "Ruta principal";
